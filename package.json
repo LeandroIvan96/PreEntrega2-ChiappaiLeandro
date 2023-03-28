@@ -1,11 +1,10 @@
 {
   "name": "segunda-entrega",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss SCSS/Styles.scss Css/estilos.css",
+    "build-css": "node-sass --include-path scss scss/estilo.scss css/estilo.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
@@ -20,6 +19,11 @@
   "homepage": "https://github.com/LeandroIvan96/PreEntrega2-ChiappaiLeandro#readme",
   "dependencies": {
     "sas": "^3.0.4",
-    "sass": "^1.59.3"
+    "sass": "^1.60.0"
+  },
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.22"
   }
 }

@@ -1,0 +1,17 @@
+@mixin borders($color,$width,$porcentaje:4%){
+    border: $width,ridge,$color;
+    border-radius: $porcentaje;
+}
+
+@mixin imagen-fondo($imagen:url(../Imagenes/max.png)){
+    background-image: $imagen;
+}
+
+@mixin grillaTeam($color,$width,$height,$border:false){
+    width: $width;
+	height: $height;
+	background-color: $color;
+    @if $border{
+	    border-left: 10px solid rgb(172, 33, 33);
+    }
+}

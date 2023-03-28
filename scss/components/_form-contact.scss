@@ -1,0 +1,36 @@
+.formContact {
+	width: 800px;
+	padding: 30px;
+	border-radius: 4px;
+	background: rgb(0, 0, 0);
+	margin: auto;
+	font-family: 'calibri';
+	color: white;
+	h4 {
+		font-size: 22px;
+		margin-bottom: 4%;
+	}
+	.buttons {
+		width: 100%;
+		background: $mainColor;
+		border: none;
+		padding: 1rem;
+		color: white;
+		margin-bottom: 2%;
+		font-size: 0.9rem;
+	}
+}
+.controls {
+	width: 100%;
+	background: $mainColor;
+	padding: 0.8rem;
+	border-radius: 4px;
+	margin-bottom: 2%;
+	border: 1px solid $mainColor;
+	font-size: 1.1rem;
+	font-family: 'calibri';
+	color: white;
+}
+textarea {
+	resize: none;
+}

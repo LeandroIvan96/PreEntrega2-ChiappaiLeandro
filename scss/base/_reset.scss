@@ -1,0 +1,48 @@
+@import "https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Koulen&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap";
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+.imgText {
+	margin: 2%;
+	display: flex;
+	justify-content: space-between;
+	p {
+		margin-right: 10%;
+		margin-top: 13%;
+		margin-left: 5%;
+		font-family: verdana, arial, helvetica;
+		font-size: 1.7rem;
+		word-spacing: 0.25em;
+	}
+}
+.grid {
+	display: grid;
+	grid-template-areas: "header header header ""main main main" "footer footer footer ";
+	grid-template-columns: repeat(3,auto);
+	grid-template-rows: repeat(3,auto);
+}
+header {
+	grid-area: header;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+main {
+	grid-area: main;
+	grid-area: main;
+	h1 {
+		text-align: center;
+		margin-top: 2%;
+		margin-bottom: 2%;
+		font-size: 2rem;
+	}
+}
+footer {
+	grid-area: footer;
+}

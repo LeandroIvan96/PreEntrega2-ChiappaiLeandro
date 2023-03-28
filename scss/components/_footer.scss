@@ -1,0 +1,22 @@
+.content-footer {
+	background-color: $footerColor;
+	margin-top: 2%;
+	display: flex;
+	justify-content: space-between;
+}
+.menu-footer {
+	margin: 0px;
+	margin-left: 10%;
+	padding-top: 3%;
+	padding-bottom: 1%;
+	a {
+		text-decoration: none;
+		display: inline-block;
+		color: white;
+		padding: 0.5rem;
+		font-size: x-large;
+		&:hover {
+			color: grey;
+		}
+	}
+}

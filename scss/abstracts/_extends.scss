@@ -1,0 +1,9 @@
+.cardPlayer{
+    height: 400px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 400px;
+	background-position-x: center;
+	margin-top: 20px;
+    @include imagen-fondo();
+};
